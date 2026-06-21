@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tests_runtime/
+.tmp_pytest/
+pytest-cache-files-*/
+
+# Virtual environments
+.venv/
+venv/
+
+# Runtime data created by source runs and portable builds
+data/
+reports/
+error.log
+*.log
+
+# Build output
+build/
+dist/
+dist_onefile/
+
+# Local editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Keep curated release executables, ignore accidental extra binaries elsewhere.
+*.exe
+!release/*.exe
